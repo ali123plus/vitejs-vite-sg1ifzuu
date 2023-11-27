@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-console.log(z.coerce.boolean().parse("tuna"));
+console.log(z.coerce.boolean().parse("false"));
 
 z.coerce.boolean().parse("tuna"); // => true
 z.coerce.boolean().parse("true"); // => true
